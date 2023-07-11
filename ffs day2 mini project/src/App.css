@@ -1,0 +1,51 @@
+.App {
+  text-align: center;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-image: url("E:\1 ima\grocery-1232944_1280.jpg");
+}
+
+.auth-form-container, .login-form, .register-form {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 600px) {
+  .auth-form-container {
+    padding: 5rem;
+    background-color: rgb(32, 43, 53);
+    border: 1px solid rgb(23, 23, 23);
+    border-radius: 50px;
+    margin: 1rem;
+  }
+}
+
+label {
+  text-align: left;
+  padding: 0.25rem 0;
+}
+
+input {
+  margin: 0.5rem 0;
+  padding: 1rem;
+  border: none;
+  
+}
+
+button {
+  border: none;
+  background-color: rgb(241, 5, 5);
+  padding: 15px;
+  border-radius: 15px;
+  cursor: pointer;
+  color: #a6f5b6;
+}
+
+.link-btn {
+  background: none;
+  color: rgb(24, 180, 215);
+  text-decoration: underline;
+}
